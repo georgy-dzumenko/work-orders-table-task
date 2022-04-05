@@ -1,0 +1,22 @@
+@use './utils.scss' as *;
+@import './blocks';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,700;1,900&display=swap');
+
+* {
+  color: $c-yellow;
+  font-family: Nunito, sans-serif;
+}
+
+body {
+  background: $c-dark-blue;
+}
+
+.App {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

@@ -1,0 +1,26 @@
+.search {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 25px;
+  height: 50px;
+  color: $c-yellow;
+  background: transparent;
+  border: 4px solid $c-dark-yellow;
+  font-size: 30px;
+  padding: 0 20px;
+  outline: 0;
+  margin-bottom: 10px;
+
+  &:hover {
+    border-color: $c-yellow;
+  }
+
+  &:active {
+    border-color: $c-yellow;
+  }
+
+  &::placeholder {
+    color: rgba(99, 78, 37, 0.563)
+  }
+
+}

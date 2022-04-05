@@ -1,0 +1,46 @@
+.table {
+  border: 3px solid $c-dark-yellow;
+  width: 100%;
+  transition: border-color 0.2s ease;
+  border-collapse: collapse;
+  cursor: pointer;
+
+  &__th {
+    border-collapse: collapse;
+    font-size: 25px;
+    // display: flex;
+    border-right: 2px solid $c-dark-blue;
+    color: $c-blue;
+    background: $c-dark-yellow;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      background: $c-yellow;
+    }
+  }
+
+  &__tr {
+    height: 30px;
+    border-top: 2px solid $c-dark-yellow;
+    border-bottom: 2px solid $c-dark-yellow;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: $c-blue;
+    }
+  }
+
+  &__td {
+    border-right: 1px solid $c-yellow;
+    padding: 2px 5px;
+    font-size: 20px;
+    
+    &:hover {
+      color: $c-light-yellow;
+    }
+  }
+
+  &:hover {
+    border-color: $c-yellow;
+  }
+}
